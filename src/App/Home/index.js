@@ -1,7 +1,6 @@
 import Intro from './Intro';
-import './index.css';
 
-function Body() {
+function Home() {
   return (
     <div className="d-flex h-100 align-items-center justify-content-center">
       <Intro />
@@ -9,4 +8,4 @@ function Body() {
   );
 }
 
-export default Body;
+export default Home;
