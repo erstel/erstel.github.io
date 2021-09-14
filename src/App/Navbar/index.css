@@ -3,6 +3,11 @@ nav {
     height: 5.5em;
 }
 
+nav > * {
+    line-height: 5.5em;
+    vertical-align: middle;
+}
+
 a:hover {
     text-decoration: none;
     color: #57a8ff;

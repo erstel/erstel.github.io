@@ -3,13 +3,11 @@ import './index.css'
 
 function Navbar() {
   return (
-    <nav className="navbar position-fixed w-100 px-5">
-      <a href="/">E</a>
-      <div>
-        <NavLink className="navbar-item" to="/games" exact>
-          Games
-        </NavLink>
-      </div>
+    <nav className="navbar position-fixed w-100 p-0">
+      <a href="/" className="h-100 px-5">E</a>
+      <NavLink className="-page-link navbar-item h-100 px-5" to="/games" exact>
+        Games
+      </NavLink>
     </nav>
   )
 }
