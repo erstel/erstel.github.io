@@ -8,7 +8,7 @@ nav > * {
     vertical-align: middle;
 }
 
-a:hover {
+.-page-link:hover {
     text-decoration: none;
     color: #57a8ff;
     background-color: #4445;
