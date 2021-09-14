@@ -1,13 +1,12 @@
-import Body from './Body';
+import Intro from './Intro';
 import './index.css';
 
-function App() {
+function Body() {
   return (
     <div className="d-flex h-100 align-items-center justify-content-center">
-      <Body/>
+      <Intro/>
     </div>
   );
 }
 
-export default App;
-
+export default Body;
