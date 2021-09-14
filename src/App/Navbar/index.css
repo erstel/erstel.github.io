@@ -2,3 +2,9 @@ nav {
     background-color: #1115;
     height: 5em;
 }
+
+a:hover {
+    text-decoration: none;
+    color: #57a8ff;
+    background-color: #4445;
+}
