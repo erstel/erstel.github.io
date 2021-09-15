@@ -1,7 +1,8 @@
 {
-  "name": "site",
+  "name": "erstel.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://erstel.github.io",
   "dependencies": {
     "bootstrap": "^5.1.0",
     "react": "^17.0.2",
