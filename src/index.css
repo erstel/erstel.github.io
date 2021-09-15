@@ -14,6 +14,12 @@ h1 {
   color: #eee;
 }
 
+hr {
+  border: 3px solid #555;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
 ::selection {
   background: rgba(47, 30, 70, 100);
 }

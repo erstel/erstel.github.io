@@ -7,9 +7,14 @@ function Navbar() {
       <NavLink exact to="/" className="h-100 px-5">
         logo
       </NavLink>
-      <NavLink className="-page-link navbar-item h-100 px-5" to="/games" exact>
-        Games
-      </NavLink>
+      <div className="h-100">
+        <NavLink className="-page-link navbar-item d-inline-block h-100 px-5" to="/games" exact>
+          Games
+        </NavLink>
+        <NavLink className="-page-link navbar-item d-inline-block h-100 px-5" to="/about" exact>
+          About
+        </NavLink>
+      </div>
     </nav>
   )
 }

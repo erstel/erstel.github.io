@@ -2,6 +2,7 @@ import { Route, HashRouter } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home'
 import Games from './Games';
+import About from './About';
 import './index.css';
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
 
         <Route exact path="/games">
           <Games />
+        </Route>
+
+        <Route exact path="/about">
+          <About />
         </Route>
       </div>
     </HashRouter>
