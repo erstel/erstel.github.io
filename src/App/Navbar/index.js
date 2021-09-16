@@ -11,8 +11,8 @@ function Navbar() {
         <NavLink className="-page-link navbar-item d-inline-block h-100 px-5" to="/games" exact>
           Games
         </NavLink>
-        <NavLink className="-page-link navbar-item d-inline-block h-100 px-5" to="/about" exact>
-          About
+        <NavLink className="-page-link navbar-item d-inline-block h-100 px-5" to="/team" exact>
+          Team
         </NavLink>
       </div>
     </nav>

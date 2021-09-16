@@ -2,7 +2,7 @@ import { Route, HashRouter } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home'
 import Games from './Games';
-import About from './About';
+import Team from './Team';
 import './index.css';
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
           <Games />
         </Route>
 
-        <Route exact path="/about">
-          <About />
+        <Route exact path="/team">
+          <Team />
         </Route>
       </div>
     </HashRouter>
