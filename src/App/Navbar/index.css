@@ -1,5 +1,8 @@
 nav {
     background-color: #1115;
+}
+
+nav, .-navbar-spacer {
     height: 5.5em;
 }
 
