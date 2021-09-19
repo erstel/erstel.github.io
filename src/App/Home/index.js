@@ -1,8 +1,9 @@
 import Intro from './Intro';
+import "./index.css";
 
 function Home() {
   return (
-    <div className="d-flex h-100 align-items-center justify-content-center">
+    <div className="-home d-flex align-items-center justify-content-center">
       <Intro />
     </div>
   );
