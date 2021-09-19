@@ -21,7 +21,7 @@ function Team() {
             className={"-team-image" + (blurred ? " -team-image-blurred" : "")}
             />
           <h2 className="display-5 text-center mt-0">Daniel Kelly</h2>
-          <div className="-team-member-info text-center">
+          <div className="-team-member-info text-center px-4">
             Co-owner, co-designer, artist, level designer. I have a full time
             job, but when I am not doing that, I like to put time towards making
             games.
@@ -38,7 +38,7 @@ function Team() {
             className={"-team-image" + (blurred ? " -team-image-blurred" : "")}
             />
           <h2 className="display-5 text-center mt-0">Caleb Sacks</h2>
-          <div className="-team-member-info text-center">
+          <div className="-team-member-info text-center px-4">
             Co-owner, co-designer, developer and composer. When I'm not working
             on games, I like to hang out with friends and play Minecraft.
           </div>
