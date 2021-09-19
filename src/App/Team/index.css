@@ -3,6 +3,48 @@
     margin-right: 20em;
 }
 
+.-team-top-line {
+    height: 0.5em;
+    background-image: linear-gradient(to right, #c40c49, #0c15c4);
+}
+
+.-team .col * {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.-team-member-info {
+    top: 8em;
+    display: none;
+}
+
+.-team-image-blurred {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+}
+
+.-team .col img:hover ~ .-team-member-info,
+.-team-member-info:hover {
+    display: block;
+}
+
+.-team .col img {
+    /* z-index: -1; */
+    position: absolute;
+    width: 100%;
+}
+
+.-team .col h2 {
+    color: #ddd;
+    letter-spacing: 0.25em;
+}
+
 .-team-section {
     margin-bottom: 3.5em;
+}
+
+/* Util */
+
+.layered > * {
 }
