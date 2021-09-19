@@ -8,19 +8,21 @@ import './index.css';
 function App() {
   return (
     <HashRouter>
-      <Navbar />
-      <div className="d-flex h-100 align-items-center justify-content-center">
-        <Route exact path="/">
-          <Home />
-        </Route>
+      <div className="h-100">
+        <Navbar />
+        <div className="-content d-flex justify-content-center">
+          <Route exact path="/">
+            <Home />
+          </Route>
 
-        <Route exact path="/games">
-          <Games />
-        </Route>
+          <Route exact path="/games">
+            <Games />
+          </Route>
 
-        <Route exact path="/team">
-          <Team />
-        </Route>
+          <Route exact path="/team">
+            <Team />
+          </Route>
+        </div>
       </div>
     </HashRouter>
   );
