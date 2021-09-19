@@ -11,6 +11,10 @@ nav > * {
     vertical-align: middle;
 }
 
+nav img {
+    height: 55%;
+}
+
 a {
     color: #007bff;
 }

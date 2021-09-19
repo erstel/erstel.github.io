@@ -6,7 +6,7 @@ function Navbar() {
     <div>
       <nav className="navbar position-fixed w-100 p-0">
         <NavLink exact to="/" className="h-100 px-5">
-          logo
+          <img src="/logo512.png" alt="Logo" />
         </NavLink>
         <div className="h-100">
           <NavLink className="-page-link navbar-item d-inline-block h-100 px-5" to="/games" exact>
