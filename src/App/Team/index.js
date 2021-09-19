@@ -19,12 +19,12 @@ function Team() {
             src="/images/daniel.jpg"
             alt="Daniel Kelly"
             className={"-team-image" + (blurred ? " -team-image-blurred" : "")}
-            onMouseEnter={() => setBlurred(true)}
-            onMouseLeave={() => setBlurred(false)}
             />
           <h2 className="display-5 text-center mt-0">Daniel Kelly</h2>
           <div className="-team-member-info text-center">
-            <p>Bio here</p>
+            Co-owner, co-designer, artist, level designer. I have a full time
+            job, but when I am not doing that, I like to put time towards making
+            games.
           </div>
         </div>
         <div
