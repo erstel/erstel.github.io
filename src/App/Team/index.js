@@ -7,7 +7,7 @@ function Team() {
 
   return (
     <div className="-team w-100 mt-5">
-      <h1 className="display-4 mb-5">Meet the team</h1>
+      <h1 className="display-4 text-center mb-5">Meet the team</h1>
       <div className="-team-top-line row m-0"></div>
       <div className="row w-100 m-0">
         <div
