@@ -27,6 +27,7 @@
 }
 
 .-team .col img:hover ~ .-team-member-info,
+.-team .col h2:hover ~ .-team-member-info,
 .-team-member-info:hover {
     display: block;
 }
