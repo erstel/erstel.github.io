@@ -8,6 +8,9 @@ function Team() {
   return (
     <div className="-team w-100 mt-5">
       <h1 className="display-4 text-center mb-5">Meet the team</h1>
+      <div className="-team-summary row m-0 text-center mb-5">
+        Erstel is an indie gamedev community. We foster an environment of content creation by releasing games and hosting game jams.
+      </div>
       <div className="-team-top-line row m-0"></div>
       <div className="row w-100 m-0">
         <div

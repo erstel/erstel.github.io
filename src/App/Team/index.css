@@ -4,6 +4,10 @@
     margin-right: 20em;
 }
 
+.-team-summary {
+    padding-bottom: 1.5em;
+}
+
 .-team-top-line {
     height: 0.5em;
     background-image: linear-gradient(to right, #c40c49, #0c15c4);
