@@ -1,5 +1,5 @@
 .-team {
-    padding-bottom: 47em;
+    padding-bottom: 34.5em;
     margin-left: 20em;
     margin-right: 20em;
 }
@@ -45,8 +45,4 @@
 .-team .col h2 {
     color: #ddd;
     letter-spacing: 0.25em;
-}
-
-.-team-section {
-    margin-bottom: 3.5em;
 }

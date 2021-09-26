@@ -1,0 +1,4 @@
+.-root, .-content {
+  /* 100vh - navbar height - footer height */
+  min-height: calc(100vh - 5.5em - 2.5em);
+}
