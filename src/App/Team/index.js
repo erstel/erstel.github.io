@@ -3,6 +3,8 @@ import { useState } from 'react'
 import "./index.css";
 
 function Team() {
+  document.title = "Meet the Team | Erstel Games";
+
   const [blurred, setBlurred] = useState(false);
 
   return (

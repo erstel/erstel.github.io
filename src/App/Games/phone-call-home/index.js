@@ -1,6 +1,8 @@
 import "./index.css";
 
 function PhoneCallHome() {
+  document.title = "Phome Call Home | Erstel Games";
+
   return (
     <div className="-phone-call-home">
       <h1 className="display-4 mt-5 mb-4">

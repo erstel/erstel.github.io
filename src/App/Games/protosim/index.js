@@ -1,6 +1,8 @@
 import "./index.css";
 
 function Protosim() {
+  document.title = "Protosim | Erstel Games";
+
   return (
     <div className="-protosim">
       <h1 className="display-4 mt-5 mb-4">

@@ -2,6 +2,8 @@ import React from 'react';
 import './index.css';
 
 function ReleasingProtosim() {
+  document.title = "Releasing Protosim | Erstel Games";
+
   return (
     <div className="-post container">
       <h1 className="display-4 mb-5">Releasing Protosim [Draft]</h1>

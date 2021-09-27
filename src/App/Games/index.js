@@ -2,6 +2,8 @@ import { NavLink } from "react-router-dom";
 import "./index.css";
 
 function Games() {
+  document.title = "Games | Erstel Games";
+
   /* 
     return a nested grid.  The first grid distributes screen space to each game,
     with each cell expanding its height to fill the screen. The inner grid
