@@ -3,7 +3,7 @@ import "./index.css";
 
 function Posts() {
   return (
-    <div className="-posts">
+    <div className="-posts container">
       <h1 className="display-4 mb-5">Blog Posts</h1>
       <ul>
         <NavLink to="/posts/draft-releasing-protosim" exact>
