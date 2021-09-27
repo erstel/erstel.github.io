@@ -1,0 +1,10 @@
+.-posts ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.-post {
+    font-size: 0.9em;
+    line-height: 1.5em;
+}

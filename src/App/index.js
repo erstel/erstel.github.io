@@ -6,6 +6,7 @@ import Games from "./Games";
 import PhoneCallHome from "./Games/phone-call-home";
 import Protosim from "./Games/protosim";
 import Posts from "./Posts";
+import ReleasingProtosim from "./Posts/ReleasingProtosim";
 import Team from "./Team";
 import Footer from "./Footer";
 import "./index.css";
@@ -35,6 +36,10 @@ function App() {
 
           <Route exact path="/posts">
             <Posts />
+          </Route>
+
+          <Route exact path="/posts/draft-releasing-protosim">
+            <ReleasingProtosim />
           </Route>
 
           <Route exact path="/team">
