@@ -1,0 +1,10 @@
+.-carousel {
+    z-index: -100;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.-carousel img {
+    filter: brightness(0.4);
+}
