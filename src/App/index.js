@@ -38,7 +38,7 @@ function App() {
             <Posts />
           </Route>
 
-          <Route exact path="/posts/draft-releasing-protosim">
+          <Route exact path="/posts/releasing-protosim">
             <ReleasingProtosim />
           </Route>
 

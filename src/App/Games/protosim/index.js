@@ -19,7 +19,8 @@ function Protosim() {
 
         <div>
           <em>
-            Protosim will be released soon. Join the <a href="https://discord.gg/2bvBxkG">discord server</a> to stay up to date!
+            Protosim will be released on October 29th at 8 PM CST / 9 PM EST.
+            Join the <a href="https://discord.gg/2bvBxkG">discord server</a> to stay up to date!
           </em>
         </div>
       </div>

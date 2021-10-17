@@ -6,7 +6,7 @@ function ReleasingProtosim() {
 
   return (
     <div className="-post container">
-      <h1 className="display-4 mb-5">Releasing Protosim [Draft]</h1>
+      <h1 className="display-4 mb-5">Releasing Protosim</h1>
 
       <em>
         <p>
@@ -51,7 +51,11 @@ function ReleasingProtosim() {
       </em>
 
       <p className='my-5'>
-        <a href='https://erstel.itch.io/protosim'>Play Protosim for free</a>
+        {/* <a href='https://erstel.itch.io/protosim'>Play Protosim for free</a> */}
+        <em>
+          Protosim will be released on October 29th at 8 PM CST / 9 PM EST.
+          Join the <a href="https://discord.gg/2bvBxkG">discord server</a> to stay up to date!
+        </em>
       </p>
 
       <hr />
