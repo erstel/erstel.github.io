@@ -17,7 +17,7 @@ function App() {
       <div className="-root">
         <Navbar />
 
-        <div className="-content d-flex justify-content-center">
+        <div className="-content d-flex justify-content-center align-items-center">
           <Route exact path="/">
             <Home />
           </Route>

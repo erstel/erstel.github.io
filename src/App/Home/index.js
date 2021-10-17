@@ -5,7 +5,7 @@ function Home() {
   document.title = "Home | Erstel Games";
 
   return (
-    <div className="-home d-flex align-items-center justify-content-center">
+    <div className="-home">
       <Intro />
     </div>
   );
