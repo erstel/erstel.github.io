@@ -1,6 +1,8 @@
 import { NavLink } from 'react-router-dom';
 import './index.css'
 
+const baseNavLinkClasses = "-page-link navbar-item d-inline-block px-2 px-sm-5 px-md-5 px-lg-5 px-xl-5";
+
 function Navbar() {
   return (
     <div>
@@ -9,13 +11,27 @@ function Navbar() {
           <img src="/logo512.png" alt="Logo" />
         </NavLink>
         <div className="h-100">
-          <NavLink className="-page-link navbar-item d-inline-block h-100 px-5" to="/games" exact>
+          <NavLink
+            className={baseNavLinkClasses}
+            to="/games"
+            exact
+            >
             Games
           </NavLink>
-          <NavLink className="-page-link navbar-item d-inline-block h-100 px-5" to="/posts" exact>
+
+          <NavLink
+            className={baseNavLinkClasses}
+            to="/posts"
+            exact
+            >
             Posts
           </NavLink>
-          <NavLink className="-page-link navbar-item d-inline-block h-100 px-5" to="/team" exact>
+
+          <NavLink
+            className={`${baseNavLinkClasses} pr-4`}
+            to="/team"
+            exact
+            >
             Team
           </NavLink>
         </div>
