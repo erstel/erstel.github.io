@@ -6,7 +6,7 @@ function Screenshots(props) {
   const items = [
     props.phoneCallHome ?
     (
-      <div>
+      <div key={0}>
         <img
           className="d-block h-100"
           src="/images/screenshots/phone-call-home/0.png"
@@ -17,7 +17,7 @@ function Screenshots(props) {
 
     props.phoneCallHome ?
     (
-      <div>
+      <div key={1}>
         <img
           className="d-block h-100"
           src="/images/screenshots/phone-call-home/1.png"
@@ -28,7 +28,7 @@ function Screenshots(props) {
 
     props.protosim ?
     (
-      <div>
+      <div key={2}>
         <img
           className="d-block h-100"
           src="/images/screenshots/protosim/0.png"
@@ -39,7 +39,7 @@ function Screenshots(props) {
 
     props.phoneCallHome ?
     (
-      <div>
+      <div key={3}>
         <img
           className="d-block h-100"
           src="/images/screenshots/phone-call-home/2.png"
@@ -50,7 +50,7 @@ function Screenshots(props) {
 
     props.protosim ?
     (
-      <div>
+      <div key={4}>
         <img
           className="d-block h-100"
           src="/images/screenshots/protosim/1.png"
@@ -61,7 +61,7 @@ function Screenshots(props) {
 
     props.protosim ?
     (
-      <div>
+      <div key={5}>
         <img
           className="d-block h-100"
           src="/images/screenshots/protosim/2.png"
@@ -72,7 +72,7 @@ function Screenshots(props) {
 
     props.phoneCallHome ?
     (
-      <div>
+      <div key={6}>
         <img
           className="d-block h-100"
           src="/images/screenshots/phone-call-home/3.png"
@@ -83,7 +83,7 @@ function Screenshots(props) {
 
     props.protosim ?
     (
-      <div>
+      <div key={7}>
         <img
           className="d-block h-100"
           src="/images/screenshots/protosim/3.png"
