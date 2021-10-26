@@ -3,7 +3,7 @@ import './index.css';
 function Intro() {
   return (
     <div>
-      <h1 className="display-1">
+      <h1>
         We are Erstel
       </h1>
     </div>

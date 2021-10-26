@@ -6,7 +6,7 @@ function ReleasingProtosim() {
 
   return (
     <div className="-post container">
-      <h1 className="display-4 mb-5">Releasing Protosim</h1>
+      <h2 className="mb-5">Releasing Protosim</h2>
 
       <em>
         <p>

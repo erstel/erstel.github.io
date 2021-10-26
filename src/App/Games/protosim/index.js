@@ -9,9 +9,9 @@ function Protosim() {
       <Screenshots protosim={true} interval={4000} />
 
       <div className="-protosim-content">
-        <h1 className="display-4 mt-5 mb-4">
+        <h2 className="mt-5 mb-4">
           Protosim
-        </h1>
+        </h2>
 
         <p>
           Your task is to rescue a group of humans from a military testing

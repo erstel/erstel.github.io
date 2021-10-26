@@ -10,16 +10,20 @@
 .-footer div {
     /* display: inline-block; */
     /* margin: 0; */
-    font-size: 0.75em;
     color: #ddd;
     /* text-align: center; margin-left: auto; margin-right: auto; */
-    letter-spacing: 0.25em;
     /*
      * so social icons aren't huge and to make the height consistent across the
      * footer (see .-footer-social-media-links img
      */
-    height: 2.5em;
-    line-height: 2.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+}
+
+@media (min-width: 768px) {
+    .-footer div {
+        letter-spacing: 0.25em;
+    }
 }
 
 .-footer-copyright {
@@ -29,9 +33,10 @@
 
 .-footer-social-media-links {
     text-align: right;
+    height: 1.5em;
     margin-bottom: 1.15em;
 }
 
 .-footer-social-media-links img {
-    height: 2.5em;
+    height: 1.5em;
 }

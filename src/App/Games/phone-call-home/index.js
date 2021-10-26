@@ -8,9 +8,9 @@ function PhoneCallHome() {
     <div className="-phone-call-home">
       <Screenshots phoneCallHome={true} interval={4000} />
       <div className="-phone-call-home-content">
-        <h1 className="display-4 mt-5 mb-4">
+        <h2 className="mt-5 mb-4">
           Phone Call Home
-        </h1>
+        </h2>
 
         <p>
           When your ship crashes on an unknown planet, you parachute out and land in a city... but there are no people, just bots.

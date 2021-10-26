@@ -6,7 +6,7 @@ function Posts() {
 
   return (
     <div className="-posts container">
-      <h1 className="display-4 mb-5">Blog Posts</h1>
+      <h2 className="mb-5">Blog Posts</h2>
       <ul>
         <NavLink to="/posts/releasing-protosim" exact>
           Releasing Protosim
