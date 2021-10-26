@@ -1,26 +1,37 @@
 .-footer {
-    margin-bottom: 0;
     width: 100%;
-    text-align: center;
+    margin-bottom: 0;
+}
+
+.-footer row {
+    width: 100%;
 }
 
 .-footer div {
-    display: inline-block;
+    /* display: inline-block; */
     /* margin: 0; */
     font-size: 0.75em;
     color: #ddd;
     /* text-align: center; margin-left: auto; margin-right: auto; */
     letter-spacing: 0.25em;
-    line-height: 1.5em;
+    /*
+     * so social icons aren't huge and to make the height consistent across the
+     * footer (see .-footer-social-media-links img
+     */
+    height: 2.5em;
+    line-height: 2.5em;
+}
+
+.-footer-copyright {
+    text-align: center;
+    vertical-align: middle;
 }
 
 .-footer-social-media-links {
-  display: inline-block;
-  position: absolute;
-  right: 0;
-  bottom: 1.15em;
+    text-align: right;
+    margin-bottom: 1.15em;
 }
 
 .-footer-social-media-links img {
-  height: 2em;
+    height: 2.5em;
 }
