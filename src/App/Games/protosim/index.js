@@ -35,10 +35,7 @@ function Protosim() {
         <hr />
 
         <div>
-          <em>
-            Protosim will be released on October 29th at 8 PM CST / 9 PM EST.
-            Join the <a href="https://discord.gg/2bvBxkG">discord server</a> to stay up to date!
-          </em>
+          <a href="https://erstel.itch.io/protosim">Play for free</a>
         </div>
       </div>
 
