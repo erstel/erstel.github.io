@@ -12,15 +12,15 @@ function Footer() {
 
         <div className="-footer-social-media-links col">
           <a href="https://discord.gg/2bvBxkG" target="_blank" rel="noopener noreferrer">
-            <img src="/images/social/discord.png" alt="Discord" className="mr-3" />
+            <img src="/images/social/discord.png" alt="Discord" />
           </a>
 
           <a href="https://erstel.itch.io/" target="_blank" rel="noopener noreferrer">
-            <img src="/images/social/itch.png" alt="Itch" className="mr-3" />
+            <img src="/images/social/itch.png" alt="Itch" />
           </a>
 
           <a href="https://twitter.com/erstelgames" target="_blank" rel="noopener noreferrer">
-            <img src="/images/social/twitter.png" alt="Twitter" className="mr-3" />
+            <img src="/images/social/twitter.png" alt="Twitter" />
           </a>
         </div>
       </div>
