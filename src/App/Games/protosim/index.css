@@ -1,4 +1,13 @@
-.-protosim-content {
-    margin-left: 20em;
-    margin-right: 20em;
+@media (min-width: 768px) {
+    .-protosim-content {
+        margin-left: 20em;
+        margin-right: 20em;
+    }
+}
+
+@media (max-width: 768px) {
+    .-protosim-content {
+        margin-left: 2.5em;
+        margin-right: 2.5em;
+    }
 }
