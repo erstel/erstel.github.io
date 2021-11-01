@@ -1,3 +1,4 @@
+import React from "react";
 import Screenshots from "../../Screenshots";
 import "./index.css";
 
@@ -15,7 +16,7 @@ function Protosim() {
 
         <p>
           Your task is to rescue a group of humans from a military testing
-          simulation. You're rescuing them from the
+          simulation. You&apos;re rescuing them from the
           <span className="-important"> Fears</span>.
         </p>
 

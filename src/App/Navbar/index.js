@@ -1,5 +1,6 @@
-import { NavLink } from 'react-router-dom';
-import './index.css'
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./index.css"
 
 const baseNavLinkClasses = "-page-link navbar-item d-inline-block px-2 px-sm-5 px-md-5 px-lg-5 px-xl-5";
 
@@ -15,7 +16,7 @@ function Navbar() {
             className={baseNavLinkClasses}
             to="/games"
             exact
-            >
+          >
             Games
           </NavLink>
 
@@ -23,7 +24,7 @@ function Navbar() {
             className={baseNavLinkClasses}
             to="/posts"
             exact
-            >
+          >
             Posts
           </NavLink>
 
@@ -31,7 +32,7 @@ function Navbar() {
             className={`${baseNavLinkClasses} pr-4`}
             to="/team"
             exact
-            >
+          >
             Team
           </NavLink>
         </div>

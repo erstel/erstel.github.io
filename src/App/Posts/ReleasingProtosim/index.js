@@ -1,5 +1,5 @@
-import React from 'react';
-import './index.css';
+import React from "react";
+import "./index.css";
 
 function ReleasingProtosim() {
   document.title = "Releasing Protosim | Erstel Games";
@@ -63,17 +63,17 @@ function ReleasingProtosim() {
       <p>
         Back in February of 2019, Caleb and Daniel met on discord, and said they
         should make a game together. They began looking for a game jam, and
-        found Cosmo D's Game Jam. The theme they had to follow was "City".
-        Daniel and Caleb began working in March, once the contest began. In that
-        month, they made Phone Call Home, a totally free game. In order to enter
-        the game to the contest, Caleb and Daniel came up with the name for our
-        team, Erstel Games, an Indie game dev team. After about a year, they
-        re-did the game, and it is now known as Morakk, although Phone Call Home
-        is still available. After a while of working on Morakk, Erstel decided
-        to pause Morakk, and began working on a smaller scale game, Protosim.
-        Protosim was made for a game jam entry, but has since been worked on. We
-        also have some big plans for Protosim coming up! This is why we began
-        working on Protosim.
+        found Cosmo D&apos;s Game Jam. The theme they had to follow was
+        &quot;City&quot;.  Daniel and Caleb began working in March, once the
+        contest began. In that month, they made Phone Call Home, a totally free
+        game. In order to enter the game to the contest, Caleb and Daniel came
+        up with the name for our team, Erstel Games, an Indie game dev team.
+        After about a year, they re-did the game, and it is now known as Morakk,
+        although Phone Call Home is still available. After a while of working on
+        Morakk, Erstel decided to pause Morakk, and began working on a smaller
+        scale game, Protosim.  Protosim was made for a game jam entry, but has
+        since been worked on. We also have some big plans for Protosim coming
+        up! This is why we began working on Protosim.
       </p>
 
       <p>

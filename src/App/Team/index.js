@@ -1,5 +1,4 @@
-import { useState } from 'react'
-
+import React, { useState } from "react";
 import "./index.css";
 
 function Team() {
@@ -19,12 +18,12 @@ function Team() {
           className="col w-100 m-0 p-0"
           onMouseEnter={() => setBlurred(true)}
           onMouseLeave={() => setBlurred(false)}
-          >
+        >
           <img
             src="/images/daniel.jpg"
             alt="Daniel Kelly"
             className={"-team-image" + (blurred ? " -team-image-blurred" : "")}
-            />
+          />
           <h3 className="text-center mt-0">Daniel Kelly</h3>
           <div className="-team-member-info text-center px-4">
             Co-owner, co-designer, artist, level designer. I have a full time
@@ -36,16 +35,17 @@ function Team() {
           className="col m-0 p-0"
           onMouseEnter={() => setBlurred(true)}
           onMouseLeave={() => setBlurred(false)}
-          >
+        >
           <img
             src="/images/caleb.jpg"
             alt="Caleb Sacks"
             className={"-team-image" + (blurred ? " -team-image-blurred" : "")}
-            />
+          />
           <h3 className="text-center mt-0">Caleb Sacks</h3>
           <div className="-team-member-info text-center px-4">
-            Co-owner, co-designer, developer and composer. When I'm not working
-            on games, I like to hang out with friends and play Minecraft.
+            Co-owner, co-designer, developer and composer. When I&apos;m not
+            working on games, I like to hang out with friends and play
+            Minecraft.
           </div>
         </div>
       </div>

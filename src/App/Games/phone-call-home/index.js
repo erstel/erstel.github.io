@@ -1,3 +1,4 @@
+import React from "react";
 import Screenshots from "../../Screenshots";
 import "./index.css";
 
