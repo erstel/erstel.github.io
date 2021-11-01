@@ -1,7 +1,17 @@
-.-team {
-    padding-bottom: 34.5em;
-    margin-left: 20em;
-    margin-right: 20em;
+@media (max-width: 768px) {
+    .-team {
+        padding-bottom: 18em;
+        margin-left: 2.5em;
+        margin-right: 2.5em;
+    }
+}
+
+@media (min-width: 768px) {
+    .-team {
+        padding-bottom: 34.5em;
+        margin-left: 20em;
+        margin-right: 20em;
+    }
 }
 
 .-team-summary {
